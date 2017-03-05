@@ -1,0 +1,16 @@
+[
+  {
+    "namespace": "hello",
+    "description": "Firefox Accounts Web Extensions Helper",
+    "permissions": ["experiments.simple"],
+    "functions": [
+      {
+        "name": "fxa",
+        "type": "function",
+        "description": "Returns the string \"pong\"",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]
